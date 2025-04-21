@@ -1,2 +1,2 @@
-# Main-repository
+# main
 repository
