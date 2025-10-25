@@ -6,15 +6,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beetroot risotto</title>
+    <title>2 Beetroot risotto</title>
 
 <style>
 li {
-    padding: 3px;
+ padding: 3px;
 }
 body {
 background-color:rgb(255, 255, 255);
-height: 1100px;
+height: 1050px;
 padding-left: 20px;
 margin-right:230px;
 margin-left:210px;
@@ -26,81 +26,101 @@ border-right-style: solid;
     }
 
 * {
-    border: 1px solid red;
 font-family: Roboto;
 }
-    
-#finished_product {
+
+h1 {
+text-align: center;
+display: inline-block;
+width: 1000px;
+margin-left: 180px
+}
+
+h2 > a {
+margin-left: 30px;
+color: brown;
+}
+
+h3 {
+width: 150px;
+}
+
+.finished_product {
 margin-left: 100px;
-width:400px;
+display: inline-block;
+}
+.finished_product > img {
+width: 400px;
 height: 400px;
 border-radius: 25px;
 }
-
 #steps {
 display: inline-block;
-width: 500px;
-margin-left: 50px;
+width: 550px;
+margin-left: 200px;
 vertical-align: top;
 }
+
 #steps > .steps {
-    margin: 0
+margin: 0;
 }
 
-#celer {
-margin-right: 50px;
-width:225px;
-height: 225px;
-border-radius: 250px;
+#smallpictures {
+width: 850px;
 }
 
-#celer>img {
+#smallpictures>img {
 height: 100px;
-   width: 100px;
-   border-radius: 150px;
+width: 100px;
+border-radius: 150px;
 }
+
+#smallpictures,
+#ingredients,
+#accessories {
+display: inline-block;
+vertical-align: top;
+margin-left: 20px;
+
+}
+
+#ingredients > ul,
+#accessories > ul {
+list-style-position: inside;
+margin: 0;
+padding:0;
+} 
+
 </style>
 </head>
 
 <body>
 <a href="/index.html">back</a>
-<h1 style="text-align: center;
-display: inline-block;
-width: 1000px;
-margin-left: 180px;">*Beetroot risotto*</h1>
-<div style="display: inline-block;
-margin-left: 20px;">
-<img  id="finished_product" src="images/rizoto.jpg">
+
+<h1>*Beetroot risotto*</h1>
+
+<div class="finished_product">
+<img src="images/risotto.jpg">
 </div>
+
 <div id="steps">
-<ul class="steps">
-<h2>STEPS <a style="margin-left: 30px;
-color: brown;" href="https://www.youtube.com/watch?v=BqXPbe1FK4o" target="_blank">(youtube tutorial)</a></h2>
-    <li style="text-align: start;"><strong>STEPS:</strong> Scrape the outer layer of celery and cut it to small pieces along with onion, bay leafs,salt and pepper 
-    and let it fry in beef tallow,ghi butter or lard until the onion and celery get soft.</li>
-    <li>When onion and celery get soft => add rice,fresh thyme and pour white dry/semidry wine in,
-    let it reduce and and then repeatedly add small portions of vegetable stock while mixing until the rice is done </li>
-    <li>After first or second addition of vegetable stock, put the grated beetroot in and cook for 20 mins, meanwhile adding salt and pepper</li>
-    <li>The moment your rice is done, we add butter, grated parmezan cheese and lemon juice. MIXING LIGHTLY TO PREVENT COLOR LOSS !!!</li>
-</ul>
+
+<h2>STEPS
+<a href="https://www.youtube.com/watch?v=BqXPbe1FK4o" target="_blank">(youtube tutorial)</a>
+</h2>
+<ol class="steps">
+
+    <li> cut celery and onion into small pieces , put it in a pan with lard/fat, bay leafs,salt and pepper and slowly let it fry on low heat.</li>
+    <li>When onion and celery get soft/onion glossy yellow. => turn on high heat and immediately put the rice with fresh thyme in and start stiring the rice, once it starts to get sticky,immediately pour white dry/semidry wine into it,
+    let it reduce. Once the wine is gone, immediately  pour vegetable stock in(not all the stock) and continuously add the stock while mixing until the rice is done.The point is to not to let the rice get stuck on the pan, and let it cook in the stock.  </li>
+    <li>Once the rice is Al dente, put the grated beetroot into and mix it well and let it finish. Once the rice is done, turn off the heat.</li>
+    <li>The moment rice is done, we add butter, grated parmezan cheese and lemon juice and if needed for proper texture, add desired amount of additional stock and serve !!!</li>
+    <li>Serve with basil/arugula on top, torched goat cheese on side along with caramelized honey walnuts and little splash of extra virgin olive on top.</li>
+</ol>
 </div>
 
-
-
-
-
-
-<h3 style="width: 600px;
-margin-top: 10px;
-padding-left: 50px;">You will neeed :</h3>
-<div id="celer" style="
-margin-top: 20px;
-width: 850px;
-vertical-align: top;
-display: inline-block;
-padding-bottom: 76.5px;
-padding-left: 60px;">
-
+<h3>You will need :</h3>
+<div id="smallpictures">
  <img 
   src="images/celer.jpg">
   <img 
@@ -153,15 +173,14 @@ padding-left: 60px;">
               src="images/plate.jpg">
               <img 
                src="images/fork.jpg">
-
+                <img 
+               src="images/arugula.jpg">
 </div>
-<div id="indgredients" style="
-display:inline-block;
-width: 180px;
-margin-top: 20px;">
-<ul>
+<div id="ingredients">
     <p><strong>-Ingredients</strong></p>
-    <li>ghi butter, lard, beef tallow</li>
+<ul>
+    <li>butter</li>
+    <li> lard/ beef tallow</li>
     <li>celery</li>
     <li>rice</li>
     <li>onion</li>
@@ -174,19 +193,15 @@ margin-top: 20px;">
     <li>vegetable stock</li>
     <li>parmigiano reggiano</li>
     <li>goat cheese</li>
-    <li>argola/parsley</li>
-    <li>touch of olive oil</li>
+    <li>arugula/parsley</li>
+    <li>extra virgin olive oil</li>
     <li>walnuts</li>
     <li>honey</li>
 </ul>
 </div>
-<div id="accessories" style="
-display:inline-block;
-width: 140px;
-margin-top: 20px;
-vertical-align: top;">
+<div id="accessories">
+<p><strong>-Accessories</strong></p>
 <ul>
-    <p><strong>-Accessories</strong></p>
     <li>1x cooking pot</li>
     <li>knife</li>
     <li>cutting board</li>
