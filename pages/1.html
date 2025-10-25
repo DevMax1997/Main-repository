@@ -11,20 +11,20 @@
 <style>
 body {
 background-color:rgb(255, 255, 255);
-height: 900px;
+height: 1100px;
 padding-left: 20px;
+margin-right:230px;
+margin-left:210px;
 border-left-width: 1px;
 border-left-style: solid;
 border-color: black;
-padding-right: 20px;
-margin-right:350px;
-margin-left:270px;
 border-right-width: 1px;
 border-right-style: solid;
-    }
+}
 
 * {
 font-family: Roboto;
+border: solid 1px red;
 }
     
 #finished_product {
@@ -34,17 +34,39 @@ height: 550px;
 border-radius: 250px;
 }
 
-img {
-width: 150px;
+#steps {
+position: absolute;
+left: 900px;
+top: 150px;
+margin: 0;
+width: 520px;
+} 
+
+#celer {
+width: 850px;
+vertical-align: top;
+display: inline-block;
+padding-bottom: 76.5px;
+padding-left: 60px;
 }
 
 
+#celer>img {
+height: 100px;
+width: 100px;
+border-radius: 150px;
+}
+
+#ingredients>ul,
+#accessories>ul {
+margin: 0;
+}
 
 </style>
 </head>
 
 <body>
-    <a href="/index.html">back</a>
+<a href="/index.html">back</a>
 <h1 style="display: inline-block;
 text-align: center;
 margin-left: 50px;">*Potato pasta with Bryndza,fried onion, bacon and fresh spring onion*</h1>
@@ -52,17 +74,9 @@ margin-left: 50px;">*Potato pasta with Bryndza,fried onion, bacon and fresh spri
 <img  id="finished_product" src="images/bryndzove.jpg">
 
 
-
-<h2 style="margin-left: 50px;
-width: 700px;">You will neeed these indgredients and accessories:</h2>
-
-<ul style="
-position: absolute;
-left: 900px;
-top: 150px;
-width: 520px;">
-<h3>STEPS <a style="margin-left: 30px;
-color: brown;" href="https://youtube.com/shorts/l5vjVsX83lM?si=s9LPRP05jzrmLDZk" target="_blank">(youtube tutorial)</a></h3>
+<ul id="steps">
+<h2>STEPS <a style="margin-left: 30px;
+color: rgb(255, 0, 0);" href="https://youtube.com/shorts/l5vjVsX83lM?si=s9LPRP05jzrmLDZk" target="_blank">(youtube tutorial)</a></h2>
     <li><strong>Step 1 :</strong> Cut the bacon and onion into a small pieces and fry them on the butter/pig fat (a.k.a Lard) and then place them aside for a later serving.
     <li><strong>Step 2 :</strong> Grate the potatoes to a mushy consistency-either with mixer or handy grater.</li>
     <li><strong>Step 3 :</strong> Add flour and egg to a mushy potatoes and incorporate it well.If i</li>
@@ -74,12 +88,55 @@ color: brown;" href="https://youtube.com/shorts/l5vjVsX83lM?si=s9LPRP05jzrmLDZk"
     
 </ul>
 
+<h3 style="margin-left: 50px;
+width: 700px;">You will neeed:</h3>
 
+<div id="celer">
+ <img
+       src="images/salt.jpg">
+  <img 
+   src="images/eggs.jpg">
+   <img 
+    src="images/Yellow-Onion.jpg">
+    <img 
+     src="images/bryndza.jpg">
+     <img 
+      src="images/semicourse.jpg">
+      <img 
+       src="images/potato.jpg">
+       <img 
+        src="images/slanina.jpg">
+        <img 
+      src="images/sourcream.jpg">       
+      <img 
+       src="images/springonion.jpg">
+       <img 
+        src="images/foamspoon.jpg">
+        <img 
+       src="images/noodlestrainer.jpg">
+       <img
+       src="images/grater.jpg">
+       <img 
+       src="images/fryingpan.jpg">
+       <img 
+       src="images/cookingpot.jpg">
+       <img 
+       src="images/speatzlemaker.jpg">
+       <img 
+       src="images/lard.jpg">
+       <img 
+       src="images/beef-tallow.jpg">
+     <img 
+     src="images/plate.jpg">
+     <img 
+     src="images/fork.jpg">
 
-<div style="border-style: solid;
-border-width: 1px;
-display: inline-block;
-padding-right: 20px;">
+</div>
+<div id="ingredients" style="
+display:inline-block;
+width: 230px;
+margin: 0;
+height: auto;">
 <ul>
     <p><strong>-Ingredients</strong></p>
     <li>butter/cooking fat(for frying part)</li>
@@ -94,19 +151,13 @@ padding-right: 20px;">
     <li>(optional) onion </li>
 </ul>
 </div>
-
-
-<div style="
-
-border-style: solid;
-border-width: 1px;
-display: inline-block;
-position: absolute;
-margin-left: 30px;
-padding-right:20px;
-padding-bottom: 55px;">
+<div id="accessories" style="
+display:inline-block;
+width: 200px;
+height: auto;
+vertical-align: top;">
 <ul>
-    <p><strong>-Accessories</strong></p>
+   <p><strong>-Accessories</strong></p>
     <li>1x 3-5 liter cooking pot</li>
     <li>1x frying pan</li>
     <li>1x handy grater or mixer</li>
@@ -115,14 +166,6 @@ padding-bottom: 55px;">
     <li>1x Stainless Steel Foam Spoon</li>
 </ul>
 </div>
-
-<img style="width: 300px;
-height: 350px;
-border-radius:150px;
-position: absolute;
-right:400px;
-bottom: 50px;
-" src="images/manifik.jpg">
 
 
 </body>
